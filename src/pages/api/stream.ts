@@ -25,7 +25,7 @@ export const post: APIRoute = async context => {
 
   if (!key.startsWith("sk-")) key = apiKey
   if (!key) {
-    return new Response("网站key已更新，请关注公众号[noarsark](https://imagecdn.noarsark.cn/blog/202302152115832.png)，回复【chatgpt】获取最新key，点击下方设置按钮，填写key后使用，如有问题，请联系[微信noarsark18](https://imagecdn.noarsark.cn/blog/chatAI.jpg)")
+    return new Response("网站key已更新，请关注公众号[开源老王](https://ruoyi-vsalw.oss-cn-shanghai.aliyuncs.com/image/2023/03/%E5%BC%80%E6%BA%90%E8%80%81%E7%8E%8B_20230309104243A004.jpg)，回复【chatgpt】获取最新key，点击下方设置按钮，填写key后使用，如有问题，请联系[微信老王](https://ruoyi-vsalw.oss-cn-shanghai.aliyuncs.com/image/2023/03/wx_20230321183041A023.png)")
   }
   if (!messages) {
     return new Response("没有输入任何文字")
